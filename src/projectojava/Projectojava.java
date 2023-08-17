@@ -11,7 +11,7 @@ public class Projectojava {
         
         System.out.println("SUMA==1 ");
         System.out.println("RESTA==2 ");
-        System.out.println("Ingresa la opcion -> ");
+        System.out.print("Ingresa la opcion -> ");
         operacion = teclado.nextInt();
         
         if (operacion == 1){
@@ -30,8 +30,9 @@ public class Projectojava {
             
             resta = n1 - n2;
             System.out.println("la resta es "+ resta);
+        }else{
+            System.out.println("ESCOJA EL NUMERO CORRECTO");
         }
-        
         
         
     }
