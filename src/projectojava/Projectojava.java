@@ -22,7 +22,16 @@ public class Projectojava {
             
             suma = n1 + n2;
             System.out.println("la suma es "+ suma);
+        }else if(operacion == 2){
+            System.out.print("Introdusca el primer numero: ");
+            n1 = teclado.nextInt();
+            System.out.print("Introdusca el segundo numero: ");
+            n2 = teclado.nextInt();
+            
+            resta = n1 - n2;
+            System.out.println("la resta es "+ resta);
         }
+        
         
         
     }
